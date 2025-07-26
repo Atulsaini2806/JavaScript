@@ -6,13 +6,6 @@ console.log(3 +
   // code readability should be high//
 console.log("atul Saini");
 
-
-let name = "Atul Saini"
-let age = 18
-let isLoggedIn = false
-let state = null
-
-
 // There are two types of datatypes that is primitive and non-primitive(refrence type)
 
 //Primitive datatypes:- they are call by value and have 7 types
@@ -23,6 +16,13 @@ let state = null
 //null => standalone value
 //undefined =>
 //symbol =>uniqueness 
+
+//example of premative data type//
+let name = "Atul Saini"//string
+let age = 18//number
+let isLoggedIn = false//boolean
+let state = null//null
+let a; //undefined
 
 
 //object
