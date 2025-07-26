@@ -7,7 +7,7 @@ accountCity = "Delhi" /*not a good choice*/
 
 console.log(accountId);
 accountEmail = "atul@gmail.com"
-varaccountPssward = "6789"
+accountPssward = "6789"
 accountCity = "Noida"
 
 /*Prefer not yo use var
