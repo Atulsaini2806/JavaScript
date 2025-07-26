@@ -17,7 +17,7 @@ console.log("atul Saini");
 //undefined =>
 //symbol =>uniqueness 
 
-//example of premative data type//
+//example of premitive data type//
 let name = "Atul Saini"//string
 let age = 18//number
 let isLoggedIn = false//boolean
