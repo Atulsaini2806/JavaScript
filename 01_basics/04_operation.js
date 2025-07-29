@@ -23,7 +23,7 @@ console.log(negvalue);
                           // then add the the last element as a string.
 
 
-        let ameCounter =  200   
-        ameCounter++;
-        console.log(ameCounter);
+        let gameCounter =  200   
+        gameCounter++;
+        console.log(gameCounter);
             
