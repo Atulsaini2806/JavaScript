@@ -13,7 +13,7 @@ console.log("atul Saini");
 //bigint => specially used for stock market and trading(big number)
 //stri ng => ""
 //boolean => true/false
-//null => standalone value
+//null => standalone value(null means empty not zero)
 //undefined =>
 //symbol =>uniqueness 
 
