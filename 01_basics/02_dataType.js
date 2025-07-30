@@ -27,8 +27,8 @@ let a; //undefined
 
 //object
 console.log(typeof "Atul Saini");
-console.log(typeof 18);
-console.log(typeof false);
+console.log(typeof 18); //number
+console.log(typeof false);//boolean
 console.log(typeof null);   //output = object
 console.log(typeof undefined);  //output = undefined
 
