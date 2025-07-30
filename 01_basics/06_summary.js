@@ -37,6 +37,8 @@ const bigNumber = 4376545786787n
 //Array
 const cricketer = ["Rohit" , "Virat" ,"Gill" ]
 console.log(cricketer);
+console.log(typeof cricketer);
+
 
 
 //object
@@ -44,10 +46,14 @@ console.log(cricketer);
     name : "david",
     age : 25
   }
+  console.log(typeof myobject);
+  
 
 
   //Function
      let myFunction = function(){
          console.log("Hello");   
     }
+    console.log(typeof myFunction);
+    
   //Here, function treat as a variable
