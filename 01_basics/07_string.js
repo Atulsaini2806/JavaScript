@@ -6,7 +6,7 @@
    console.log('my name is ${Rohan} and my age is ${21}');//string interpolation.(modern method)
 
 
-//Another important method to declear a string
+//Second important method to declear a string
    const myName = new String("Atul Saini")
     
    console.log(myName [0]);//A
