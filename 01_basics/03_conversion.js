@@ -3,7 +3,7 @@
 //   console.log(typeof score);
 //  // console.log(typeof (score)); This is the  second method to check the type datatype//
 
-//  let valueInNumber= Number(score) //metod of conversion //
+//  let valueInNumber= Number(score) //metod of conversion //important
 //  console.log(typeof valueInNumber);
 //  console.log(valueInNumber);
  
