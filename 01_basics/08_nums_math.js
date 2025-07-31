@@ -20,7 +20,7 @@ console.log(balance);//[Number:800]
 
 
    const number2 = 1000000;
-   console.log(number2.toLocaleString('en-US')); //1,000,000 in us format
+   console.log(number2.toLocaleString("en-US")); //1,000,000 in us format
    console.log(number2.toLocaleString('en-IN')); //10,00,000 in indian format
 
 
