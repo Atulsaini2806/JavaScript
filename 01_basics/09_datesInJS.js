@@ -44,4 +44,5 @@
      const myName = new String("Atul Saini")//string decleration
      const myDate5= new Date(); //decleration of date
      const balance = new Number(800);//decleration of number
+     const arr2 = new Array(1,2,3,4,5);
      //these are the modern method that are used for declearation.
