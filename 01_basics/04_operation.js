@@ -11,8 +11,8 @@ console.log(negvalue);
 
 
    let str1 = "Hello"
-   let str2 = "Everyone"
-      console.log(str1+str2);//HellEveryone
+   let str2 = "EveryOne"
+      console.log(str1+str2);//HellEveryOne
 
 
      console.log("1" + 4);
