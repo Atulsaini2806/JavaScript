@@ -22,7 +22,7 @@
     console.log(myArr.indexOf(5));//5
     console.log(myArr.indexOf(11));//-1 if value is not exist.
 
-//how to vonvert a aarsy into a string:
+//how to convert a array into a string:
     const newArr = myArr.join();
     console.log(newArr); 
     console.log(typeof newArr);
