@@ -45,5 +45,5 @@
      const myDate5= new Date(); //decleration of date
      const balance = new Number(800);//decleration of number
      const arr2 = new Array(1,2,3,4,5);
-     const instaUser = new Object();  // singleton object(dexleration of object)
+     const instaUser = new Object();  // singleton object(declaration of object)
      //these are the modern method that are used for declearation.
