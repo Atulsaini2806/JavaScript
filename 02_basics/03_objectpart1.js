@@ -1,7 +1,7 @@
 //Decleration of object.
 
-//-when we declare obj by cunstructors then type of that obj is singleton object.example: objrct.cteate
-//when we declare obj by literlas then type of that obj is not singleton object.
+//when we declear the object by cunstructors then type of that obj is singleton object.Example: objrct.create
+//when we declear the object by literlas then type of that obj is not singleton object.
 
 //obeject literals:
      
