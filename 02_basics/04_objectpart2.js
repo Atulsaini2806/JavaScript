@@ -7,7 +7,6 @@
           console.log(instaUser5);//{}
         
 
-
         const instaUser1 = {};
           instaUser1.id = "123abc";
           instaUser1.name = 'sammy';
@@ -72,3 +71,22 @@
      ] 
      console.log(myArray);
      
+     
+
+
+//+++++++++++++++ De-structuring of Objects ++++++++++++
+
+      const course={
+      name:"JavaScript",
+      price:1000,
+    courseInstructor: "chai aur code",   
+  };
+    //console.log(course.courseInstructor);
+// instead of this we use :--
+
+      const {courseInstructor} = course; // this is called object's destructuring
+      console.log(courseInstructor);//chai aur code
+//or
+      const {courseInstructor : instructor} = course;
+      console.log(instructor);//chai aur code
+      
