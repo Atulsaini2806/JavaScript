@@ -26,14 +26,10 @@
 
 
 //if we have multiple aaray inside the aaray than we can use flat method to make it a single array.
-    //  const another_array = [1,2,3,4,[5,6,7],8,[9,10,11[12,13,14]]];
-    // const new_array = another_array.flat(4);
-    // console.log(new_array); //[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
-      const another_array = [1,2,3,4,5,[6,7],8,[9,10,[11,12]]];
-      const new_array = another_array.flat(4);
-      console.log(new_array); //[1,2,3,4,5,6,7,8,9,10,11,12]
-
-
+     const another_array = [1,2,3,4,[5,6,7],8,[9,10,11,[12,13,14]]];
+    const new_array = another_array.flat(4);
+    console.log(new_array); //[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+   
 
 //If we want to convert a datatypes into array then we use from()...
      console.log(Array.isArray("Ujjwal"));// for check it is array or not //op-false
