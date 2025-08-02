@@ -36,13 +36,17 @@
 
 
     console.log("B =", myArr1);
-    const myn2 = myArr1.splice(1,4);
+    const myn2 = myArr1.splice(1,4,"8",'9','6','7');
     console.log(myn2);//B =[ 1, 2, 3, 4 ] return the range frome 1 to 4 but with 4.
     console.log( "C =",myArr1);//C = [ 0, 5 ]
     
     
     //Important note: everyone say that difference between slice and splice is that slice does not includes range while splice includes.
     //but it is false.
-
-
+    //slice() creates a shallow copy of a portion of an array into a new array, without modifying the original array.
+    //splice() is used to add, remove, or replace elements in an array, and it modifies the original array.
     
+ //   | Feature     | `slice()`                    | `splice()`               |
+ // Modifies array? | ❌ No                       | ✅ Yes                    |
+ // Return value    | Extracted part (new array)   |    Removed elements (array) |
+ //Use case         |   Copy portion               | Insert/remove in-place   |
