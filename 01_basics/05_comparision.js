@@ -29,4 +29,4 @@
 
  //strict check(===)
   console.log("5" === 5); false //because firstly conversin will happened then comparision
-                                // that's why it is called strict check
+                                // that's why it is called strict check.
