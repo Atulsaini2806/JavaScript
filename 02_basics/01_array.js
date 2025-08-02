@@ -28,7 +28,7 @@
     console.log(typeof newArr);
 
 
-//slice splice:
+//slice and splice:
     const myArr1 = [0,1,2,3,4,5];
     console.log("A =",myArr1);
     const myn1 = myArr1.slice(1,4);
