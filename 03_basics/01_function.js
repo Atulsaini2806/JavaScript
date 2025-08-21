@@ -17,7 +17,7 @@
     }
     add(); // Nan
     add(5, 10); // Output: 15
-    // add(10, 20); // Output: 30
+   // add(5,"4"); //Output: 54
     // add(100, 200); // Output: 300
 
 //anothe example:
