@@ -5,9 +5,7 @@ const user = {
     welcomeMessage: function () {
         console.log(`${this.username} , welcome to the website`); //here this keyword is used for refrence current context(block scope)
       //  console.log(this);
-
     }
-
 }
     //   user.welcomeMessage();//Atul , welcome to the website;
     //   user.username = "sam";
