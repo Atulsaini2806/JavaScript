@@ -52,5 +52,5 @@ const user = {
 
 
 //if we want to return an object inside the function then we need to put it into the paranthesis otherwise it will give undefined.
-    const add2 = (num1,num2) => ({username:"Atul"});
-    console.log(add2(7,8));//{username: 'Atul'}  
+    const add2 = (name) => ({username:name});
+    console.log(add2("Atul"));//{username: 'Atul'}  
