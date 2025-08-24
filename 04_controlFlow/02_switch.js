@@ -12,7 +12,7 @@
 // }
 
 //Example 1:    
-const week = 3;
+const week = 5;
 switch (week) {
     case 1:
         console.log("Sunday");
