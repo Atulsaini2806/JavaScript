@@ -11,7 +11,7 @@
 //         // code block
 // }
 
-//example 1:    
+//Example 1:    
 const week = 3;
 switch (week) {
     case 1:
