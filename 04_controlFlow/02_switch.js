@@ -1,4 +1,6 @@
-//switch statement:
+//switch statement:switch statement are used due to their ability to handle multiple conditions
+    //  based on the value of an expression/keys.
+
 //syntax:
 // switch (expression/keys) {
 //     case value1:
