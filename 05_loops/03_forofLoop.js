@@ -52,4 +52,6 @@
 //     console.log(key, ':-', value);
 // }
 
-// Note: for of loop does not work for object directly.
+// Note:- for of loop does not work for object directly.
+
+// Note:- for of loop most commonly used with arrays, strings, and maps.
