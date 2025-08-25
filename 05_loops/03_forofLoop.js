@@ -55,3 +55,11 @@
 // Note:- for of loop does not work for object directly.
 
 // Note:- for of loop most commonly used with arrays, strings, and maps.
+
+// Difference between for of and for in loop:
+// for of loop is used to iterate over iterable objects (arrays, strings, maps)
+// for in loop is used to iterate over the properties of an object
+
+//differences between for of loop and for in loop:
+// 1. for of loop can be used with any iterable object, while for in loop can only be used with objects.
+// 2. for of loop returns the values of the iterable, while for in loop returns the keys of the object.
