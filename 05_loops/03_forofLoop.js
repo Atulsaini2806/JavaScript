@@ -41,6 +41,11 @@
        console.log(key , '=' , value);
        
    }
+//Note:- keys in the Map may only occur once.It is unique in tha Map's collection.
+
+// A Map is a collection of key-value pairs, where each key is unique and is used to retrieve the corresponding value. 
+// Maps maintain the insertion order of the keys.
+
 
 // Example 3:for of loop for object:
 // const myObject = {
