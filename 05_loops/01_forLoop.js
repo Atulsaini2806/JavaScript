@@ -60,3 +60,7 @@ for (let i = 0; i <=8; i++) {
         }
         console.log(i);//1,2,3,4,5,"6 is detected",7,8,9,10
     }
+
+    //difference between break and continue:
+    // break :- it stops the execution of code when condition is meet.
+    // continue :- it skips the value when condition is meet.
