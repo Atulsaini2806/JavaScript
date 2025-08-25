@@ -31,7 +31,7 @@
    }
 // This syntax is specially used for map.
 
-//Example 2: for of loop for map keys.
+//Example 2: for of loop for map 
    let map = new Map();
    map.set('In',"india")
    map.set('Usa',"united state of america")
@@ -42,7 +42,7 @@
        
    }
 
-// for of loop for object:
+// Example 3:for of loop for object:
 // const myObject = {
 //     game1: 'NFS',
 //     game2: 'Spiderman'
