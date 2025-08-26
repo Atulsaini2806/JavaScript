@@ -128,9 +128,9 @@ nums.forEach((val, index) => {
 
 // ✅ Quick Comparison Table:-
 
-//   Loop	      Use Case	                                Iterates Over	                        Index Available?	                     Can Break?
-// for	          General, when count/index needed	         Index-based	                         ✔ Yes	                                 ✔ Yes
-// for..of	      Arrays, strings, sets, maps (values)	     Values	                                 ✘ No (but can use .entries())	         ✔ Yes
+// Loop	          Use Case	                                Iterates Over	                         Index Available?	                     Can Break?
+// for	          General, when count/index needed	        Index-based	                             ✔ Yes	                                 ✔ Yes
+// for..of	      Arrays, strings, sets, maps (values)	    Values	                                 ✘ No (but can use .entries())	         ✔ Yes
 // for..in	      Objects (keys)                            Keys (property names)	                 ✘ No	                                 ✔ Yes
 // forEach	      Arrays (functional style)	                Values (with index callback)	         ✔ Yes (2nd param)	                     ✘ No
 
