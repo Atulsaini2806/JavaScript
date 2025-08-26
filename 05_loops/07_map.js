@@ -8,7 +8,6 @@
 
 
 //Example 1:-
-//ex1:-
 const myNumbers = [1,2,3,4,5,6,7,8,9,10];
 //const newNumbers = myNumbers.map( (num) => num + 10 );
 const newNumbers = myNumbers.map( (num) => {
