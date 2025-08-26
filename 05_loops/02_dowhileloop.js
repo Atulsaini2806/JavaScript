@@ -72,4 +72,16 @@ do {
     // If the condition is false, it will not execute the code again.
     // A do-while loop is guaranteed to execute at least once,
 
-    
+
+//Difference between for loop and while loop:
+    // A for loop is typically used when the number of iterations is known beforehand.
+    // It consists of three parts: initialization, condition, and increment/decrement.
+    // A while loop is more flexible and can be used when the number of iterations is not known in advance.
+
+//1. For Loop
+    //Usage: When you know in advance how many times you want to repeat the block of code.
+    //Structure: Initialization, condition, and increment/decrement are all written in one line.
+
+//2. While Loop
+    //Usage: When you don’t know beforehand how many times the loop will run (depends on a condition).
+    //Structure: Only the condition is inside the loop declaration; initialization and increment/decrement are usually outside.
