@@ -11,7 +11,9 @@ const values = coding.forEach( (item) => {
 //that's we use the filter method.
 
 
-//filter method:-
+//filter method:- It is also a callback function that is used to filter the array based on a condition.
+// it is a higher-order function that takes a callback function as an argument and applies it to each element in the array.
+
 //Example 1:-
 // ex 1:-
 const myArray = [1,2,3,4,5,6,7,8,9,10]
