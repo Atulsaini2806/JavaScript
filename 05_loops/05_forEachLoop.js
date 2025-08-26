@@ -85,3 +85,6 @@
     //java java
  })
 
+//Note:-for each loop does not work for object directly.
+//Note:- for each loop does not return anything.it simply iterate over the array.
+//Note:- for each loop cannot be breaked or continued like for loop.
