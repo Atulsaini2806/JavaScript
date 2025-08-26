@@ -132,7 +132,7 @@ nums.forEach((val, index) => {
 // for	          General, when count/index needed	         Index-based	                         ✔ Yes	                                 ✔ Yes
 // for..of	      Arrays, strings, sets, maps (values)	     Values	                                 ✘ No (but can use .entries())	         ✔ Yes
 // for..in	      Objects (keys)                            Keys (property names)	                 ✘ No	                                 ✔ Yes
-// forEach	      Arrays (functional style)	             Values (with index callback)	             ✔ Yes (2nd param)	                     ✘ No
+// forEach	      Arrays (functional style)	                Values (with index callback)	         ✔ Yes (2nd param)	                     ✘ No
 
 
 //High order function:-
