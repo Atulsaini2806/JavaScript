@@ -25,17 +25,18 @@
 
    console.log(myMap);
 
-   for (const [key, value] of myMap) {
+   for (const [key, value] of myMap) {// This syntax is specially used for map.
        //console.log(`Key: ${key}, Value: ${value}`);
        console.log(key, ':-', value);
    }
-// This syntax is specially used for map.
+
 
 //Example 2: for of loop for map 
    let map = new Map();
    map.set('In',"india")
    map.set('Usa',"united state of america")
    map.set('Fr',"france")
+   map.set('In',"india")
 
    for (const [key ,value]of map) {
        console.log(key , '=' , value);
