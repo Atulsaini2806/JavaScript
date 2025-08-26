@@ -136,10 +136,10 @@ nums.forEach((val, index) => {
 
 
 //High order function:-
-//filter,map,reduce,forEach are high order function.
-// A higher-order function is a function that takes another function as an argument or returns a function as its result.
+    //filter,map,reduce,forEach are high order function.
+    // A higher-order function is a function that takes another function as an argument or returns a function as its result.
 
 //callback function:-
-// A callback function is a function that is passed as an argument to another function and is executed at a later time.
-// A callback function does not require function name.
-//such as - filter,map,reduce,forEach are callback function.
+    // A callback function is a function that is passed as an argument to another function and is executed at a later time.
+    // A callback function does not require function name.
+    //such as - filter,map,reduce,forEach are callback function.
