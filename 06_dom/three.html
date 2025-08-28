@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object model </title>
+</head>
+<body style ="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+//these two attribute can be directly used.
+    div.className = "main"
+    div.id = "myId"
+
+    div.setAttribute('title', 'myTitle')
+    div.style.backgroundColor = "green"
+
+   // div.innerHTML = "this is a created element"
+   //or
+   const addText = document.createTextNode("This is a created element")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+</script>
+</html>
