@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Events </title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing image</h2>
+    <div >
+        <ul id="images">
+            <li><img width="200px" id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
+            <li><img width="200px" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+            <li><img width="200px" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+        </ul>
+   </div>
+</body>
+<script>
+// Approaches of adding an event:-
+//first method:-
+    //document.getElementById('owl').onclick = function(){ or
+        // document.querySelector('#owl').onclick = function(){
+        //     alert("owl clicked")
+        // } 
+// but this return small amount information, so we should use addEventListener because it give also propogation ability along with other features.
+
+
+    //second method:-attachEvent()
+    //  Third method :-jQuery - 
+//Above two method are used in older versions of browsers.but today is not used.
+
+
+//fourth method:-
+        // document.getElementById('owl').addEventListener('click', function(e){
+        //      console.log(e);
+        //     alert("owl clicked");
+        //  },false)
+//here e is event object and here third parameter is false means event bubbling is enabled if true then event capturing is enabled but by default it is false means event bubbling is enabled.
+//and this is the best approach.
+
+
+
+// Event propogation:- event bubbling
+
+        // document.getElementById('images').addEventListener('click', function(e){
+        //     // console.log(e);
+        //      console.log("clicked inside the ul");
+        // },false);
+
+        //  document.getElementById('owl').addEventListener('click', function(e){
+        //        // console.log(e);
+        //    console.log("owl clicked");
+        //  },false);
+
+//when we use third parameter as a false then it is called event bubbling.
+//event bubbling means when we click on owl image then first owl image event will be triggered then its parent element event will be triggered means ul event will be triggered.
+//event bubbling goes from inner element to outer element.or child to parent element.or bottom to top.
+//or by default third parameter is false means event bubbling is enabled.
+
+
+//Event propogation:- event capturing
+     //document.getElementById('images').addEventListener('click', function(e){
+     //      // // console.log(e);
+     //  console.log("clicked inside the ul");
+   //},true);
+
+   //document.getElementById('owl').addEventListener('click', function(e){
+     // // console.log(e);
+       // console.log("owl clicked");
+   //},true);
+
+//when we use third parameter as a true then it is called event capturing.
+//event capturing means when we click on owl image then first ul event will be triggered then its parent element event will be triggered means images event will be triggered.
+//event capturing goes from outer element to inner element.or parent to child element.or top to bottom.
+
+
+//example of e.stopPropagation() method:-it is used to stop the event propogation.
+//    document.getElementById('images').addEventListener('click', function(e){
+//     console.log("clicked inside the ul");
+//    },false);
+
+//    document.getElementById('owl').addEventListener('click', function(e){
+//         console.log("owl clicked");
+//         e.stopPropagation(); //now event will not be bubble. because we stop it.
+//    },false);
+
+
+//example of e.preventDefault() method:-it is used to prevent the default behaviour of an element.
+//    document.getElementById('google').addEventListener('click', function(e){
+//         e.preventDefault(); //it will prevent the default behaviour of google link.
+//        e.stopPropagation(); //now event will not be bubble. because we stop it.
+//         console.log("google clicked");
+//    },false);
+   
+
+//Task:- Remove the img from ul list
+    document.querySelector('#images').addEventListener('click', function(e){
+        console.log(e.target.tagName);
+        if (e.target.tagName === 'IMG') {
+            console.log(e.target.id);
+            let removeIt = e.target.parentNode
+            removeIt.remove()
+            //or
+            removeIt.parentNode.removeChild(removeIt)
+        }
+    }
+        
+    )
+
+//learn about below topics from mdn
+    // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget, 
+    // clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keyCode
+</script>
+</html>
