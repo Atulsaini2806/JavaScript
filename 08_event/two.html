@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timing function (setTimeout)</title>
+</head>
+<body>
+    <h1>Welcome to my docoment</h1>
+    <button id ="stop">stop</button>
+    <script>
+
+//setTimeout function :-setTimeout() method is a timing function in JavaScript,or is a global function used to execute a function or a piece of code after a specified delay (in milliseconds).
+     //it is the part of browser's Web API(window) or global object in Node.js and is commonly used for scheduling asychronous operation.
+     // it is used to execute a function after a specified period of time 
+//syntax1:-
+        // setTimeout(function(){
+        //     console.log('atul');
+            
+        // },2000);// 2000 means 2 second
+
+ // syntax 2:-
+        // const time = function(){
+        //     console.log("second syntax");
+        // }
+        //  setTimeout(time,2000)
+
+//ex 1:-if we want ton change the heading:
+//document.querySelector('h1').innerHTML = "Best js series ";
+
+//example 2: if we want to change the heading after 2 seconds using second syntax
+         const changeHeading = function(){
+            document.querySelector("h1").innerHTML = "Best JS series on YouTube";
+         };
+         const changeMe = setTimeout(changeHeading,2000);
+
+// how to stop setTimeout function before completed using clearTimeout():
+//ex:- take refrence of above example
+//clearTimeout(changeMe) or
+
+         document.querySelector("#stop").addEventListener('click',function(){
+            clearTimeout(changeMe); // here we take only refrence not execution
+            console.log("stopped");
+            
+         })
+
+    </script>
+</body>
+</html>
