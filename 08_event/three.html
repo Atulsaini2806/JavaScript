@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timing function (setInterval)</title>
+</head>
+<body>
+    <h1>Welcome to my docoment</h1>
+    <button id ="stop">stop</button>
+     <button id ="start">start</button>
+<script>
+//first method:-
+    // setInterval(function(){
+    //     console.log("Hello", Date.now());
+    //  },1000)
+//  here Hello will be printed after 1 sec again and again
+
+//second method:-
+    //  const show = function(){
+    //     console.log("second syntax", Date.now());
+    //  }
+    //   const intervalId = setInterval(show,1000);// store into a variable for reference
+    //  clearInterval(intervalId); // it will stop the setInterval function
+
+
+ const changeH1= function(){
+            console.log('hello atul',Date.now());
+            
+        }
+        let changeMe;
+        document.querySelector("#start").addEventListener('click',function(){
+            changeMe=setInterval(changeH1,2000);
+        })
+        document.querySelector("#stop").addEventListener('click',function(){
+            
+            clearInterval(changeMe)
+            console.log("stopped");
+        })
+
+</script>
+    
+</body>
+</html>
