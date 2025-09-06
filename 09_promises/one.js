@@ -62,7 +62,7 @@ promiseFour.then(function(data){
 .then(function(username){
     console.log(username);
 })
-.catch(function(error){// catch is used for handling error
+.catch(function(error){// catch is used for handling the error.
     console.log(error);
 }).finally(function(){
     console.log("Promise is either resolved or rejected");
