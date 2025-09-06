@@ -90,6 +90,7 @@ async function consumePromise(){ //whenever we use  async await we have to use t
     console.log(response);
    } catch (error) {
     console.log(error);
+    console.log(error);
    }
 }
 consumePromise();
