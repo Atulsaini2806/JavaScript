@@ -8,7 +8,7 @@
       }
 
 //Example 2: of falsy values
-      const useremail = 'false';
+      const useremail = false;
         if(useremail){
          console.log("Got user email");
 
