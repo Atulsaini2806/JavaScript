@@ -6,7 +6,7 @@ console.log(negvalue);
    console.log(4*4);//16
    console.log(4-4);//0
    console.log(7%4);//3(remender)
-   console.log(11/4);//2
+   console.log(11/4);//2.75
    console.log(4**3);//4*4*4=64
 
 
