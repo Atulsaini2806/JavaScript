@@ -4,7 +4,13 @@
 console.log(3 + 
     3);
   // code readability should be high//
-console.log("atul Saini");
+  //we can also consolelog without declear variable.
+  console.log(123);                // number
+  console.log("Hello World");      // string
+  console.log(true);               // boolean
+  console.log(undefined);          // undefined
+  console.log(null);               // null
+
 
 // There are two types of datatypes that is primitive and non-primitive(refrence type)
 
@@ -16,6 +22,7 @@ console.log("atul Saini");
 //null => standalone value(null means empty not zero)
 //undefined =>
 //symbol =>uniqueness 
+
 
 //example of premitive data type//
 let name = "Atul Saini"//string
@@ -29,8 +36,8 @@ let a; //undefined
 console.log(typeof "Atul Saini");
 console.log(typeof 18); //number
 console.log(typeof false);//boolean
-console.log(typeof null);   //output = object
-console.log(typeof undefined);  //output = undefined
+console.log(typeof null);   //output = object(important for interview)
+console.log(typeof undefined);  //output = undefined(important for interview)
 
 
 
