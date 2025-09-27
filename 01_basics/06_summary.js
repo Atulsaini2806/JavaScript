@@ -13,7 +13,7 @@ const scoreValue = 90.3
 console.log(typeof 90.3);//number if it is also in float.
 
 const name = "Atul Saini"
-console.log(typeof "Atul Saini");
+console.log(typeof "Atul Saini");//string
 
  
 const isLoggedIn = false
@@ -23,8 +23,8 @@ console.log(typeof false); //boolean
 const outsideTemp  = null
 console.log(typeof null);//object
 
-let userEmail = undefined
-console.log(typeof undefined); //undefined
+let userEmail ;
+console.log(typeof userEmail); //undefined
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
