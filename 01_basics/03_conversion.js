@@ -1,11 +1,11 @@
-//   let score = "45abc"
+ let score = "45abc"
 
-//   console.log(typeof score);
+ console.log(typeof score);
 //  // console.log(typeof (score)); This is the  second method to check the type datatype//
 
-//  let valueInNumber= Number(score) //metod of conversion //important
-//  console.log(typeof valueInNumber);
-//  console.log(valueInNumber);
+ let valueInNumber= Number(score) //metod of conversion //important
+ console.log(typeof valueInNumber);
+ console.log(valueInNumber);//NaN
  
 // // how conversion happened
 //    //  "45" => 45
