@@ -18,10 +18,10 @@ console.log(negvalue);
      console.log("1" + 4);//14
      console.log(1 + "3");//13
      console.log("1" + 2 + 3);//123 if first element is string then entire element treat as string.
-     console.log(5 - 3 +"3");//23  if last element is string thent first apply the given opertion
+     console.log(5 - 3 +"3" );//23  if last element is string thent first apply the given opertion
                           //  on that element that comes before the last element(string)
                           // then add the the last element as a string.
-
+      console.log(5 - 3 +"3" +4 +9);//2349
 
         let gameCounter =  200   
         gameCounter++;
