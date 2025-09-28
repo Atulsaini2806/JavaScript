@@ -14,7 +14,7 @@
 // }
 
 //Example 1:    
-const week = 5;
+const week = 4;
 switch (week) {
     case 1:
         console.log("Sunday");
@@ -57,7 +57,7 @@ switch (fruit) {
         break;
     case "grape":
         console.log("Grape is purple");
-        break;
+        brrak;
     default:
         console.log("Unknown fruit");
 }
