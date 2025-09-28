@@ -19,9 +19,15 @@
                       // without this bracket it does not treat as a symbol.
                      //hence we can say that [variable name] is the syntex to add the symbol inside the object.                      
 }
-   
      console.log(myObject);
 
+//second method to declear the object by non sinlheton object.
+ const instaUser1 = {};
+          instaUser1.id = "123abc";
+          instaUser1.name = 'sammy';
+          instaUser1.isLoggedIn = false;
+          console.log(instaUser1);
+          
 //Accessiny the object
    console.log(myObject.email);//mostly use this.
    console.log(myObject["email"]);// but sometime prefer this method.
