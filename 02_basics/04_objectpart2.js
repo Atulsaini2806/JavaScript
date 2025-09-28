@@ -3,7 +3,7 @@
        const instaUser = new Object();  // singleton object means declear by constructors
         console.log(instaUser);//{}
 //non singleton object crration:
-        const instaUser5 ={}//non singleton object means decleration by literals
+        const instaUser5 = {}//non singleton object means decleration by literals
           console.log(instaUser5);//{}
         
 
