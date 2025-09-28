@@ -14,7 +14,7 @@
     const myArr = [1,2,3,4,5,6,7,8];
     console.log(myArr.indexOf(5));//4
     console.log(myArr);//[1,2,3,4,5,6,7,8];
-   // myArr.push(10)// add the value at the end.
+    //myArr.push(10,11)// add the value at the end.
       myArr.pop();// delete the value from the end.
       myArr.unshift(3);//add the value at the begining of the given array.
     //myArr.shift();//delete the value from the begining
