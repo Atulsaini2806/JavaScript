@@ -1,13 +1,13 @@
  // Object declaration by constructors :
 //Singleton Objects creation:
-       const instaUser = new Object();  // singleton object
+       const instaUser = new Object();  // singleton object means declear by constructors
         console.log(instaUser);//{}
 //non singleton object crration:
-        const instaUser5 ={}//non singleton object
+        const instaUser5 ={}//non singleton object means decleration by literals
           console.log(instaUser5);//{}
         
 
-        const instaUser1 = {};
+        const instaUser1 = new Object();
           instaUser1.id = "123abc";
           instaUser1.name = 'sammy';
           instaUser1.isLoggedIn = false;
@@ -20,15 +20,9 @@
       console.log(instaUser1.hasOwnProperty('id'));// check this property belong to obj or not//true
 
 
-    //     const instaUser2={
-    //         id : "123abc",
-    //         name :'sammy',
-    //         isLoggedIn :false,
-    //    }
-    //       console.log(instaUser2);
+    
 
-
-//if we want to declear the object imside the object(object chaning):
+//if we want to declear the object in side the object(object chaning):
      const regularUser ={
         email :"some@gmail.com",
         fullname :{
@@ -46,10 +40,11 @@
         const User2 = { 3: "c",4: "d"};
         const User3 = {5: "e",6: "f"};
 
-        //const obj = {object1,object2}
+        //const obj = {User1,User2,User3}
            //const obj = Object.assign( {},User1,User2,User3)//here {} use as a target and other as a source code.
-          // using spread method:
-           const obj = {...User1,...User2,...User3}//{ '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }
+
+  // using spread method:
+          const obj = {...User1,...User2,...User3}//{ '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }
            console.log(obj);
         
 
@@ -81,7 +76,7 @@
       price:1000,
     courseInstructor: "chai aur code",   
   };
-    //console.log(course.courseInstructor);
+    console.log(course.courseInstructor);
 // instead of this we use :--
 
       const {courseInstructor} = course; // this is called object's destructuring
