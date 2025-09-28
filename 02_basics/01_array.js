@@ -7,7 +7,8 @@
 
 // seciond rule:
     const arr2 = new Array("apple","mango","banana","date");
-    console.log(arr2[0]);
+    console.log(arr2); 
+    console.log(arr2 [0]);
 
 // Methods
     const myArr = [1,2,3,4,5,6,7,8];
@@ -29,16 +30,16 @@
 
 
 //slice and splice:
-    const myArr1 = [0,1,2,3,4,5];
+    const myArr1 = [15,45,21,34,24,18];
     console.log("A =",myArr1);
-    const myn1 = myArr1.slice(1,4);
-    console.log(myn1);//A = [1,2,3] return the range frome 1 to 4 but without 4.
+    const myn1 = myArr1.slice(0,3);
+    console.log(myn1);//A = [15,45,21,34] return the range frome 0index to 4index but without 4.
 
 
     console.log("B =", myArr1);
-    const myn2 = myArr1.splice(1,4,"8",'9','6','7');
-    console.log(myn2);//B =[ 1, 2, 3, 4 ] return the range frome 1 to 4 but with 4.
-    console.log( "C =",myArr1);//C = [ 0, 5 ]
+    const myn2 = myArr1.splice(0,3);
+    console.log(myn2);//B =[15,45,21] return the range from 1 index to 4 index but with 4.
+    console.log( "C =",myArr1);//C = [ 34,24,18 ]
     
     
     //Important note: everyone say that difference between slice and splice is that slice does not includes range while splice includes.
