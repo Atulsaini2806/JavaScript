@@ -20,7 +20,7 @@
    // add(5,"4"); //Output: 54
     // add(100, 200); // Output: 300
 
-//anothe example:
+//another example:
     function addTwoNumbers(number1, number2){
        console.log(number1 + number2);
     }
@@ -39,7 +39,7 @@
        }
         const result = addTwoNumbers(40, 20); // Output: 30//if we use the return indide the function then we should need to store
                                               // it into a variable outside the function otherwise it will not work.
-       console.log("Reult:" ,result); 
+       console.log( "Result:" , result ); 
 
 
 
@@ -53,16 +53,16 @@
        function calculateCartprice(val1,val2,...num1){
        return num1;
      }
-       console.log(calculateCartprice(200,300,400,500));//[200,300,400]
+       console.log(calculateCartprice(200,300,400,500));//[400,500]
 
 //how a object pass in a function:
        const user = {
        username: "Mohan",
        age:21,
     };
-       function passObject(anyobject){
-       console.log(`username is ${anyobject.username} and age is ${anyobject.age}`);
-    
+       function passObject(user){
+       console.log(`username is ${user.username} and age is ${user.age}`);
+
       }
        passObject(user);//user name is Mohan and age is 21 
  // or
@@ -73,10 +73,10 @@
 
 
 //how a array pass in a function:
-       const numbers = [1, 2, 3, 4, 5];
-       function passArray(anyArray){
-       console.log(`The first element is ${anyArray[0]} and the last element is ${anyArray[anyArray.length - 1]}`);
-       console.log(numbers);
-       
-      }
-       passArray(numbers);//The first element is 1 and the last element is 5
+const myArray = [1,2,3,4,5];
+function passArray(getarray){
+    console.log(getarray);
+    
+}
+passArray(myArray);//[1,2,3,4,5]
+     
