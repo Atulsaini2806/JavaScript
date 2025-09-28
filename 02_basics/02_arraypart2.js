@@ -33,7 +33,7 @@
 
 //If we want to convert a datatypes into array then we use from()...
      console.log(Array.isArray("Ujjwal"));// for check it is array or not //op-false
-     console.log(Array.isArray("74578"));//false because it isa number datatypte
+     console.log(Array.isArray("74578"));//false because it is a number datatypte
 //convert into a array using from
      console.log(Array.from("Atul"));//[ 'A', 't', 'u', 'l' ]
      console.log(Array.from("74578"));//[ '7', '4', '5', '7', '8' ]
