@@ -22,18 +22,17 @@
    console.log(myName.toUpperCase()); //ATUL SAINI
 
    const newString = myName.substring(0 , 3);// Note:here not include last index that is 3 
-   console.log(newString);
+   console.log(newString);//Atu
       
     const anotherString = myName.slice(0 , 3);// slice also work with negative index.
     console.log(anotherString);
     
 
     const newStringOne = "     rohan    ";
-    console.log(newStringOne);
-    console.log(newStringOne.trim());//remove the extra space
+    console.log(newStringOne);//    rohan
+    console.log(newStringOne.trim());//rohan (remove the extra space)
     
-    //const url = "https://sohan.com/sohan%60$choudhary"
-    //console.log(url.replace(sohan, _));
+      console.log(newStringOne.trim().toUpperCase());//ROHAN (chaining method)
     
-     const newName= "Ankit-25-M.tech-EC";   
-      console.log(newName.split('-'));// [ 'Ankit', '25', 'M.tech', 'EC' ]
+     const newName= "Ankit/25/M.tech/EC";   
+      console.log(newName.split('/'));// [ 'Ankit', '25', 'M.tech', 'EC' ]
