@@ -4,22 +4,22 @@ const user = {
     age: 21,
     welcomeMessage: function () {
         console.log(`${this.username} , welcome to the website`); //here this keyword is used for refrence current context(block scope)
-      //  console.log(this);
+       console.log(this);
     }
 }
-    //   user.welcomeMessage();//Atul , welcome to the website;
-    //   user.username = "sam";
-    //   user.welcomeMessage();//sam , welcome to the website; b'coz now context is changed here now it is current context and this refers it
+     user.welcomeMessage();//Atul , welcome to the website;
+    user.username = "sam";
+ user.welcomeMessage();//sam , welcome to the website; b'coz now context is changed here now it is current context and this refers it
 
       //console.log(this);//{} empty object only for node. Not for browser. because in browser this refers to window object.
                        // it give the empyt object because there is no global content.
 
     
-    // function chai(){
+    // function chai1(){
     //     let username = "Atul";
     //     console.log(this);
     // }
-    //    chai(); 
+    //    chai1(); 
 
  //Another method to declare a function.
     // const chai = function(){
