@@ -1,7 +1,7 @@
 //Decleration of object.
 
-//when we declear the object by cunstructors then type of that obj is singleton object.Example: objrct.create
-//when we declear the object by literlas then type of that obj is not singleton object.
+//when we declear the object by cunstructors then type of  obj is singleton object.Example: objrct.create
+//when we declear the object by literlas then type of  obj is not singleton object.
 
 //obeject literals:
      
@@ -9,17 +9,18 @@
 
      const myObject = {
      name : "Atul",//here name (key) treat as string behaind the scene.
-     "full name":"Atul Saini",
-     age:21,
+     fullName:"Atul Saini",
+     age:21, 
      location:"meerut",
      email:"atul@google.com",
      isLoggeIn:false,
      lastloginDays : ["Monday" ,"saturaday"],
      [mySym] : "mykey1" //if we want to add a symbol into object's key then always write the key inside the [](bracket).
-                      // withot this bracket it does not treat as asymbol.
+                      // without this bracket it does not treat as a symbol.
                      //hence we can say that [variable name] is the syntex to add the symbol inside the object.                      
 }
    
+     console.log(myObject);
 
 //Accessiny the object
    console.log(myObject.email);//mostly use this.
@@ -38,7 +39,7 @@
     console.log(myObject);
 
 
-// if we want to add add a function into a object:
+// if we want to   add a function into a object:
     myObject.greeting = function(){
     console.log("hello Js User"); 
 }
