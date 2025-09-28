@@ -8,6 +8,7 @@
 
 //Second important method to declear a string
    const myName = new String("Atul Saini")
+    console.log(myName);
     
    console.log(myName [0]);//A
    console.log(myName.length);//10
