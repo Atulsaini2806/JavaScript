@@ -31,16 +31,16 @@ switch (week) {
     case 5:
         console.log("Thrusday");
         break;
+        
     case 6:
         console.log("Friday");
         break;
     case 7:
         console.log("Saturday");
         break;
-
     default:
         console.log("default case");
-        
+    
         break;
 }
 // if we do not use break statement,and when our case matches then it will execute all subsequent code
