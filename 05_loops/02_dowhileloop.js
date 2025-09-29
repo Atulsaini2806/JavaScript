@@ -18,14 +18,14 @@
       while (score < 200) {
           console.log(score);
           score = score + 10;
-         // score ++;
+          //score ++;
       }
 
 //Example 3: while loop in array
    let arr = ["mukul","atul","deepak","nitin"]
    let j = 0;
    while(j<arr.length){
-       console.log(arr[j]);
+       console.log(arr[j]);  
        j++;
    }
 
