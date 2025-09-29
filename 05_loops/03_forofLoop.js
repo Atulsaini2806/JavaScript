@@ -1,6 +1,6 @@
 // for of loop:
 //syntax:
-   // for (variable of iterable) {
+   // for (const variable of object) {
    //     // code
    // }
 
