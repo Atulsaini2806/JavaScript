@@ -35,7 +35,7 @@ for (const key in programming) {
 //Example 3: for in loop for string.
 const myString = "Atul";
 for (const key in myString) {
-    console.log(key);//0,1,2,3
+    //console.log(key);//0,1,2,3
     console.log(myString[key]);//A,t,u,l
 }
 
