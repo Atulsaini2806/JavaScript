@@ -51,7 +51,7 @@
          console.log(val1);
 
 // Terniary operator
-// syntax:-
+// syntax:- 
 //condition ? true:false;
 //Example:-
       const  batPrice = 1000;
