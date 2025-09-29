@@ -27,7 +27,7 @@ switch (week) {
         break;
     case 4:
         console.log("Wednesday");
-        break;
+         break;
     case 5:
         console.log("Thrusday");
         break;
