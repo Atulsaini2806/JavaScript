@@ -3,18 +3,21 @@
    // for (variable in object) {
    //     // code
    // }
+ 
+    
 
 //Example 1: for in loop for object.
 const myObj={
     js:"javascript",
     py:"python",
     rb:"ruby",
-    cpp:"c++",
+    cpp:"c++"
 };
+
 for(const keys in myObj){
-   // console.log(keys);
-   // console.log(myObj[keys]);
-    console.log(`${keys} is shortcut for ${myObj[keys]}`);
+    //console.log(keys);
+    console.log(myObj[keys]);
+    //console.log(`${keys} is shortcut for ${myObj[keys]}`);
     //js is shortcut for javascript
     //py is shortcut for python
     //rb is shortcut for ruby
