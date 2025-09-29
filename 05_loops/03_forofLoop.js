@@ -47,7 +47,6 @@
 // A Map is a collection of key-value pairs, where each key is unique and is used to retrieve the corresponding value. 
 // Maps maintain the insertion order of the keys.
 
-
 // Example 3:for of loop for object:
 // const myObject = {
 //     game1: 'NFS',
@@ -71,4 +70,4 @@
 // 2. for of loop returns the values of the iterable, while for in loop returns the keys of the object.
 
 // Difference between for of loop and for loop:
-// for of loop is used to iterate over the values of an iterable object, while for loop is used to iterate over the elements of an array or the properties of an object.
+// for of loop is used to iterate over the values of an iterable object, while for loop is used to iterate over the elements of an array or the properties of an object.+
