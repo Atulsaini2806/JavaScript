@@ -31,7 +31,6 @@ switch (week) {
     case 5:
         console.log("Thrusday");
         break;
-        
     case 6:
         console.log("Friday");
         break;
